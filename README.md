@@ -44,5 +44,5 @@ Here are some documents on how to get this program running:
 
 [Get Pycharm.pdf](https://github.com/omcodedthis/Breakout/files/10365789/Get.Pycharm.pdf)
 
-[Graphics(Tkinter) reference.pdf](https://github.com/omcodedthis/Breakout/files/10365790/Graphics.reference.for.later.pdf)
+[Graphics (Tkinter) reference.pdf](https://github.com/omcodedthis/Breakout/files/10365790/Graphics.reference.for.later.pdf)
 
