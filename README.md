@@ -32,7 +32,17 @@ left. If not, the game ends in a loss for the player ("Lose" screen).
  2. The last brick is eliminated. In this case, the player wins, and the game ends
 immediately ("Win" screen). 
 
+
+
 This program was a blast to write, having to apply the concept of decompostion to break the
 program down into smaller problems and tackling them was key in writing this program. I have
 learnt a lot from CS106A and this program is a testament of what I have gained so far. 
+
+
+
+Here are some documents on how to get this program running:
+
+[Get Pycharm.pdf](https://github.com/omcodedthis/Breakout/files/10365789/Get.Pycharm.pdf)
+
+[Graphics(Tkinter) reference.pdf](https://github.com/omcodedthis/Breakout/files/10365790/Graphics.reference.for.later.pdf)
 
