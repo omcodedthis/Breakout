@@ -6,6 +6,7 @@ back and forth across the screen along with the mouse until it reaches the edge 
 
 
 
-![Game shots](https://user-images.githubusercontent.com/119602009/211140438-d2455fe2-0775-464f-ba6d-7de9d2f591d5.png)
+![Game shots](https://user-images.githubusercontent.com/119602009/211140511-3fda5836-c0c8-4aba-ad19-78d389203238.png)
+
 
 
