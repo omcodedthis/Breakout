@@ -11,12 +11,12 @@ back and forth across the screen along with the mouse until it reaches the edge 
 
 
 
-A complete game consists of three turns. On each turn, a ball is launched from the center of
+A complete game consists of three turns. On each turn, a ball is launched from the centre of
 the window toward the bottom of the screen. That ball bounces off the paddle and the walls of 
 the world, in accordance with the physical principle generally expressed as "the angle of 
-incidence equals the angle of reflection". Thus, after two bounces--one offthe paddle and one 
-off the right wall--the ball has trajectory towards the bricks. The ball then collides with the
-bricks. When that happens, the ball bounces just as it does on any other collision, but the
+incidence equals the angle of reflection". Thus, after two bounces--one off the paddle and one 
+off the right wall--the ball has a trajectory towards the bricks. The ball then collides with 
+the bricks. When that happens, the ball bounces just as it does on any other collision, but the
 brick disappears. The second diagram shows what the game looks like after that collision and
 after the player has moved the paddle to put it in line with the oncoming ball.
 
@@ -31,3 +31,8 @@ left. If not, the game ends in a loss for the player (Win).
  
  2. The last brick is eliminated. In this case, the player wins, and the game ends
 immediately (Lose). 
+
+This program was a blast to write, having to apply the concept of decompostion to break the
+program down into smaller problems and tackling them was key in writing this program. I have
+learnt a lot from CS106A and this program is a testament of what I have gained so far. 
+
