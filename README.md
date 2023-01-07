@@ -17,7 +17,7 @@ the world, in accordance with the physical principle generally expressed as "the
 incidence equals the angle of reflection". Thus, after two bounces--one off the paddle and one 
 off the right wall--the ball has a trajectory towards the bricks. The ball then collides with 
 the bricks. When that happens, the ball bounces just as it does on any other collision, but the
-brick disappears. The second diagram shows what the game looks like after that collision and
+bricks disappears. The second diagram shows what the game looks like after that collision and
 after the player has moved the paddle to put it in line with the oncoming ball.
 
 
