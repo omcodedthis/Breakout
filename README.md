@@ -3,6 +3,10 @@ In Breakout, the initial configuration of the world appears as shown on the righ
 rectangles in the top part of the screen are bricks, and the slightly larger rectangle at the
 bottom is the paddle. The paddle is in a fixed position in the vertical dimension, but moves
 back and forth across the screen along with the mouse until it reaches the edge of its space.
+The look of the game was heavily inspired from the software version of Breakout which was 
+written for the Atari® 2600 in 1978 with a slight modern touch.
+
+![Breakout2600](https://user-images.githubusercontent.com/119602009/211143548-f03a5a6c-3602-45a1-b30e-a99ede683af5.png)
 
 
 
