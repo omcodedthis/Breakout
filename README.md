@@ -33,11 +33,9 @@ left. If not, the game ends in a loss for the player ("Lose" screen).
 immediately ("Win" screen). 
 
 
-
 This program was a blast to write, having to apply the concept of decompostion to break the
 program down into smaller problems and tackling them was key in writing this program. I have
 learnt a lot from CS106A and this program is a testament of what I have gained so far. 
-
 
 
 Here are some documents on how to get this program running:
