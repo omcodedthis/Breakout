@@ -38,8 +38,8 @@ immediately ("Win" screen).
 
 --------------------------------------------------------------------------------------------
 This program was a blast to write. Having to apply the concept of decompostion to break the
-program down into smaller problems and tackling them was key. I have learnt a lot from CS106A 
-and this program is a testament of what I have gained so far. 
+program down into smaller problems and tackling them individually was key. I have learnt a 
+lot from CS106A and this program is a testament of what I have gained so far. 
 
 
 Here are some documents on how to get this program running:
