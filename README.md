@@ -26,11 +26,11 @@ The play on a turn continues in this way until one of two conditions occurs:
  
  1. The ball hits the lower wall, which means that the player must have missed it with the
 paddle. In this case, the turn ends and the next ball is served if the player has any turns
-left. If not, the game ends in a loss for the player (Win).
+left. If not, the game ends in a loss for the player ("Lose" screen).
  
  
  2. The last brick is eliminated. In this case, the player wins, and the game ends
-immediately (Lose). 
+immediately ("Win" screen). 
 
 This program was a blast to write, having to apply the concept of decompostion to break the
 program down into smaller problems and tackling them was key in writing this program. I have
