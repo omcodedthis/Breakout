@@ -48,6 +48,7 @@ def main():
 
 
 
+
 def create_bricks(canvas):
     for row in range(N_ROWS):
         for col in range(N_COLS):
@@ -177,6 +178,7 @@ def total_bricks(canvas):
 # that are not bricks).
 
 
+
 def hit_left_wall(canvas, ball):
     x_coordinate = get_left_x(canvas, ball)
     return x_coordinate <= 0
@@ -206,7 +208,6 @@ def get_coords_list(canvas, ball):
 
 
 
-
 def get_left_x(canvas, object):
     return canvas.coords(object)[0]
 
@@ -215,6 +216,7 @@ def get_top_y(canvas, object):
     return canvas.coords(object)[1]
 # get_x/y(canvas, object) returns the coordinate of the left side x-coordinate of the ball and top y-coordinate of
 # the ball.
+
 
 
 def lose_screen(canvas):
