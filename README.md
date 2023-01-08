@@ -8,8 +8,7 @@ The look of the game was heavily inspired from the [software version of Breakout
 
 
 
-
-![Game shots](https://user-images.githubusercontent.com/119602009/211141446-672b4e95-565d-4be7-a9d9-f139eb1609ff.png)
+![Game shots](https://user-images.githubusercontent.com/119602009/211180277-1ff751bb-900d-4468-ac33-06e67edb5b7a.png)
 
 
 
