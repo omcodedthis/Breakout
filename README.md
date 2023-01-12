@@ -20,7 +20,7 @@ incidence equals the angle of reflection". Thus, after two bounces--one off the 
 off the right wall--the ball has a trajectory towards the bricks. The ball then collides with 
 the bricks. When that happens, the ball bounces just as it does on any other collision, but the
 bricks disappears. The second diagram shows what the game looks like after this collision and
-after the player has moved the paddle to put it in line with the oncoming ball.
+after the player has moved the paddle to put it in line with the oncoming ball (Gameplay screenshot of Breakout).
 
 
 
