@@ -32,6 +32,7 @@ PADDLE_HEIGHT = 20
 
 def main():
     canvas = make_canvas(CANVAS_WIDTH, CANVAS_HEIGHT, 'Breakout', bg="black")
+    canvas.create_text(125, 30, font=("Small Fonts", 33), text="Breakout©", fill="light grey")
     create_bricks(canvas)
     turns = 3
     while turns != 0:
@@ -40,11 +41,12 @@ def main():
         turns -= 1
     lose_screen(canvas)
     canvas.mainloop()
-# main() creates a canvas, draws the bricks on this canvas and a variable turns is assigned the value 3. While turns
-# is not 0, turn_counter(canvas, turns) mainly prints the logo "Breakout" and "Tries Left" on the canvas.
-# run_game(canvas) draws the ball & paddle and runs an animation loop. If the lose condition is achieved in
-# run_game(canvas), the function ends and turns is reduced by 1. The lose screen is then applied to the canvas.
-# canvas.mainloop() aids in keeping the canvas running for the user to see.
+# main() creates a canvas, draws the bricks on this canvas and a variable turns is assigned the value 3. Then
+# draws the "Breakout" logo at the top-left quarter of the canvas. While turns is not 0, turn_counter(canvas, turns)
+# mainly prints the logo "Breakout" and "Tries Left" on the canvas.run_game(canvas) draws the ball & paddle and runs
+# an animation loop. If the lose condition is achieved in run_game(canvas), the function ends and turns is reduced
+# by 1. The lose screen is then applied to the canvas.canvas.mainloop() aids in keeping the canvas running for the
+# user to see.
 
 
 
@@ -85,8 +87,7 @@ def draw_bricks(canvas, row, col):
 
 
 def turn_counter(canvas, turns):
-    list = canvas.find_overlapping(120, 25, CANVAS_WIDTH, 30)
-    canvas.create_text(125, 30, font=("Small Fonts", 33), text="Breakout©", fill="light grey")
+    list = canvas.find_overlapping(480, 25, CANVAS_WIDTH, 30)
 
     for object in list:
         canvas.delete(object)
@@ -98,7 +99,7 @@ def turn_counter(canvas, turns):
 
     if turns == 1:
         canvas.create_text(485, 33, font=("Small Fonts", 27), text="Tries Left: 0", fill="maroon")
-# turn_counter(canvas, turns) finds all the object bounded by an area of a rectangle in the top right quarter of
+# turn_counter(canvas, turns) finds all the objects bounded by an area of a rectangle in the top right quarter of
 # the canvas. Then, the for loop goes through every object in that list and deletes the object(clearing the text that
 # was previously there). Thus, for the first turn the "Tries Left" text is drawn, and for subsequent turns it is
 # then deleted, and then updated (re-drawn with current number of Tries Left) each turn.
@@ -115,7 +116,7 @@ def run_game(canvas):
 
 
     while True:
-        bricks_left = total_bricks(canvas)  # int value of total bricks left
+        bricks_left = total_bricks(canvas)   # int value of total bricks left
 
         canvas.move(ball, dx, dy)  # moves the ball by dx & dy each frame
 
@@ -135,9 +136,12 @@ def run_game(canvas):
         if hit_bottom_wall(canvas, ball):
             canvas.delete(ball)
             canvas.delete(paddle)
+            canvas.delete(top_border)
             break
-# if the ball hits the bottom wall, the animation loop is broken and run_game(canvas) ends. The ball & paddle is
-# deleted. run_game(canvas), provided the turns is not 0.
+# if the ball hits the bottom wall, the animation loop is broken and run_game(canvas) ends. The ball, paddle &
+# top_border is deleted. This is to prevent a copy of them being drawn at the same location, preventing duplicates
+# from being drawn at the same coordinates as these objects if run_game(canvas) is called again, provided that
+# turns is not 0.
 
 
         if bricks_left == 0:
@@ -220,8 +224,9 @@ def get_top_y(canvas, object):
 
 
 def lose_screen(canvas):
-    canvas.create_text(300, 375, font=("Small Fonts", 27), text="You Lost! " + str(total_bricks(canvas)) + " bricks remaining.", fill="light grey")
-# lose_screen(canvas) displays a text of "You Lost!" and how many bricks were remaining.
+    canvas.create_line(0, 65, CANVAS_WIDTH, 65, fill="light grey")
+    canvas.create_text(300, 375, font=("Small Fonts", 27), text="You Lost! " + str((total_bricks(canvas)) + 2) + " bricks remaining.", fill="light grey")
+# lose_screen(canvas) adds the previously deleted top_border displays a text of "You Lost!" and how many bricks were remaining.
 
 
 
