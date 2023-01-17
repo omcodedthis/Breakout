@@ -41,7 +41,7 @@ down into smaller problems and tackling them individually was key. I have learnt
 CS106A and this program is a testament of what I have gained so far. 
 
 
-Here are some documents on how to get this program running (do note to open the folder breakout.py is directly in when in PyCharm):
+Here are some documents on how to get this program running (do note to open the folder breakout.py is directly in, "Breakout Game" when in PyCharm):
 
 [Get Pycharm.pdf](https://github.com/omcodedthis/Breakout/files/10365789/Get.Pycharm.pdf)
 
