@@ -24,7 +24,7 @@ after the player has moved the paddle to put it in line with the oncoming ball (
 
 
 
-The play on a turn continues in this way until one of two conditions occurs:
+The play for a turn continues in this way until one of two conditions occurs:
  
  1. The ball hits the lower wall, meaning that the player must have missed it with the
 paddle. In this case, the turn ends and the next ball is served if the player has any turns
