@@ -26,7 +26,7 @@ after the player has moved the paddle to put it in line with the oncoming ball (
 
 The play on a turn continues in this way until one of two conditions occurs:
  
- 1. The ball hits the lower wall, which means that the player must have missed it with the
+ 1. The ball hits the lower wall, meaning that the player must have missed it with the
 paddle. In this case, the turn ends and the next ball is served if the player has any turns
 left. If not, the game ends in a loss for the player ("Lose" screen).
  
@@ -35,10 +35,10 @@ left. If not, the game ends in a loss for the player ("Lose" screen).
 immediately ("Win" screen). 
 
 
---------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 This program was a blast to write. Applying the concept of decompostion by breaking the program 
 down into smaller problems and tackling them individually was key. I have learnt a lot from 
-CS106A and this program is a testament of what I have gained so far. 
+CS106A and this project is a testament of what I have gained so far. 
 
 
 Here are some documents on how to get this program running (do note to open the folder breakout.py is directly in, "Breakout Game" when in PyCharm):
