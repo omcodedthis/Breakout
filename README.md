@@ -36,7 +36,7 @@ immediately ("Win" screen).
 
 
 -----------------------------------------------------------------------------------------------
-This program was a blast to write. Applying the concept of decompostion by breaking the program 
+This program was a blast to write. Applying the concept of decomposition by breaking the program 
 down into smaller problems and tackling them individually was key. I have learnt a lot from 
 CS106A and this project is a testament of what I have gained so far. 
 
