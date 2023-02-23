@@ -40,9 +40,9 @@ immediately ("Win" screen).
 ## Getting Started
 Here are some documents on how to get this program running (do note to open the folder breakout.py is directly in, "Breakout Game", when in PyCharm):
 
-[Get Pycharm.pdf](https://github.com/omcodedthis/Breakout/files/10365789/Get.Pycharm.pdf)
+* [Install PyCharm.](https://github.com/omcodedthis/Breakout/files/10365789/Get.Pycharm.pdf)
 
-[Graphics (Tkinter) reference.pdf](https://github.com/omcodedthis/Breakout/files/10365896/Graphics.Tkinter.reference.pdf)
+* [Graphics (Tkinter) reference.](https://github.com/omcodedthis/Breakout/files/10365896/Graphics.Tkinter.reference.pdf)
 
 ## My Thoughts
 This program was a blast to write. Applying the concept of decomposition by breaking the program 
