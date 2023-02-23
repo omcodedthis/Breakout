@@ -17,11 +17,12 @@ The look of the game was heavily inspired from the [software version of Breakout
 A complete game consists of three turns. On each turn, a ball is launched from the centre of
 the window toward the bottom of the screen. This ball bounces off the paddle and the walls of 
 the world, in accordance with the physical principle generally expressed as "the angle of 
-incidence equals the angle of reflection". Thus, after two bounces--one off the paddle and one 
-off the right wall--the ball has a trajectory towards the bricks. The ball then collides with 
-the bricks. When that happens, the ball bounces just as it does on any other collision, but the 
-bricks disappears. The second diagram shows what the game looks like after this collision and
-after the player has moved the paddle to put it in line with the oncoming ball (Gameplay screenshot of Breakout).
+incidence equals the angle of reflection".Thus, after two bounces--one off the paddle and one 
+off the right wall--the ball has a trajectory towards the bricks.
+
+The ball then collides with the bricks. When that happens, the ball bounces just as it does on 
+any other collision, but the bricks disappears. The second diagram shows what the game looks 
+like after this collision and after the player has moved the paddle to put it in line with the oncoming ball (Gameplay screenshot of Breakout).
 
 
 
