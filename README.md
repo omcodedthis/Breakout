@@ -1,4 +1,5 @@
 # Breakout
+
 In Breakout, the initial configuration of the world appears as shown on the right (Start of Breakout). The colored
 rectangles in the top part of the screen are bricks, and the slightly larger rectangle at the
 bottom is the paddle. The paddle is in a fixed position in the vertical dimension, but moves
@@ -7,11 +8,11 @@ The look of the game was heavily inspired from the [software version of Breakout
 
 
 
-
 ![Game shots](https://user-images.githubusercontent.com/119602009/211180394-bede9e50-5c08-46da-b1aa-f3c7e8099d15.png)
 
 
 
+## Gameplay Mechanics
 
 A complete game consists of three turns. On each turn, a ball is launched from the centre of
 the window toward the bottom of the screen. This ball bounces off the paddle and the walls of 
@@ -35,14 +36,15 @@ left. If not, the game ends in a loss for the player ("Lose" screen).
 immediately ("Win" screen). 
 
 
------------------------------------------------------------------------------------------------
-This program was a blast to write. Applying the concept of decomposition by breaking the program 
-down into smaller problems and tackling them individually was key. I have learnt a lot from 
-CS106A and this project is a testament of what I have gained so far. 
 
-
+## Getting Started
 Here are some documents on how to get this program running (do note to open the folder breakout.py is directly in, "Breakout Game", when in PyCharm):
 
 [Get Pycharm.pdf](https://github.com/omcodedthis/Breakout/files/10365789/Get.Pycharm.pdf)
 
 [Graphics (Tkinter) reference.pdf](https://github.com/omcodedthis/Breakout/files/10365896/Graphics.Tkinter.reference.pdf)
+
+## My Thoughts
+This program was a blast to write. Applying the concept of decomposition by breaking the program 
+down into smaller problems and tackling them individually was key. I have learnt a lot from 
+CS106A and this project is a testament of what I have gained so far. 
